@@ -70,8 +70,8 @@ export const updateDatabaseController = async () => {
           //   row["Date"]
           // ), 
           // cronExpression : "30 10 * * *"
-          // cronExpression : "10 * * * * *"
-          cronExpression : "15 17 * * *"
+          cronExpression : "10 * * * * *"
+          // cronExpression : "15 17 * * *"
         });
 
         console.log(`✔️ Inserted: ${email}`.bgMagenta);
