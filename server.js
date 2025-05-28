@@ -17,7 +17,7 @@ app.listen(port, () => {
   console.log(`Server is listening at PORT ${port}`.bgGreen);
   connectDB();
   cron.schedule("30 3 * * *", () => {
-    console.log("🕞 Running updateDatabaseController at 3:30 AM...");
+    console.log("🕞 Running updateDatabaseController at  3:30 AM...");
     updateDatabaseController();
   });
 });
