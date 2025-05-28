@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const eventSchema = new mongoose.Schema(
+const employeeSchema = new mongoose.Schema(
   {
     email: {
       type: String,
@@ -33,4 +33,4 @@ const eventSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-export default mongoose.model("Events", eventSchema);
+export default mongoose.model("Employee", employeeSchema);
